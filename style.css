@@ -1,0 +1,37 @@
+.box{
+    margin: 50px;
+    width: 250px;
+    height: 150px;
+    background: url(images/tortoise.png) no-repeat;
+    position: relative;
+    animation-name: moveit;
+    animation-duration: 2s;
+}
+
+
+@keyframes moveit{
+    from{left: 0;}
+    to{left: 50%;}
+}
+
+
+.box1{
+    margin: 50px;
+    width: 250px;
+    height: 210px;
+    left: 0;
+    background: url(images/starfish.png) no-repeat;
+    position: relative;
+    animation-name: shakeit;
+    animation-duration: 2s;
+}
+
+
+@keyframes shakeit {
+    12.5% {left: -50px;}
+    25% {left: 50px;}
+    37.5% {left: -25px;}
+    50% {left: 25px;}
+    62.5% {left: -10px;}
+    75% {left: 10px;}
+}
