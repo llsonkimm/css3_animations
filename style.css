@@ -35,3 +35,17 @@
     62.5% {left: -10px;}
     75% {left: 10px;}
 }
+
+.box2{
+    margin: 50px;
+    width: 250px;
+    height: 210px;
+    background: url(images/octopus.png) no-repeat;
+    position: relative;
+    animation: repeatit 2s linear 0s infinite alternate;
+}
+
+@keyframes repeatit {
+    from{left: 0;}
+    to{left: 50%;}
+}
